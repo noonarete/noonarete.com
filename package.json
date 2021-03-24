@@ -1,0 +1,23 @@
+{
+  "name": "noonarete.com",
+  "version": "1.0.0",
+  "description": "Content for the website noonarete.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noonarete/noonarete.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/noonarete/noonarete.com/issues"
+  },
+  "homepage": "https://github.com/noonarete/noonarete.com",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "^2.0.4"
+  }
+}
