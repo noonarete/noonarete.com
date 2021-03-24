@@ -1,0 +1,7 @@
+baseURL = "https://noonarete.com/"
+languageCode = "en-us"
+title = "Noonarete"
+
+theme = "noonarete"
+
+# See config/_default/params.toml for the [params]

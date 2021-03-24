@@ -1,0 +1,9 @@
+favicon = "img/noonarete.png"
+
+description = """
+Noonarete: Excellence in Software Development
+"""
+
+[logo]
+src = "img/noonarete.png"
+alt = "The Noonarete Logo"

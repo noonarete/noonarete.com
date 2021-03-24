@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="flex h-screen">
+  <div class="m-auto animate-fade-in-up">
+    {{- with ($.Param "logo") -}}
+    <figure>
+      <img class="max-w-full" src="{{ .src | absURL }}" alt="{{ .alt }}" />
+    </figure>
+    {{- end -}}
+    {{- with ($.Param "description") -}}
+    <p class="mt-4 text-lg text-center">
+      {{ . }}
+    </p>
+    {{- end -}}
+  </div>
+</div>
+{{ end }}

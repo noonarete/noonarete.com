@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+<body class="text-carrara bg-valhalla">
+  {{- partial "header.html" . -}}
+  <div id="content">
+    {{- block "main" . }}{{- end }}
+  </div>
+  {{- partial "footer.html" . -}}
+</body>
+
+</html>
